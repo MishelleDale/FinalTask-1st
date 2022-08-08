@@ -1,10 +1,10 @@
 ﻿Console.WriteLine("Сколько элементов вы хотите ввести?");
-int Т = Convert.ToInt32(Console.ReadLine());
-string[] array = new string[Т];
+int N = Convert.ToInt32(Console.ReadLine());
+string[] array = new string[N];
 string[] newArray = new string[array.Length];
-for (int i = 0; i < Т; i++)
+for (int i = 0; i < N; i++)
 {
-    Console.Write($"Введите {i + 1} элемент: "); // to culculate the order in user's way 1, 2, 3...
+    Console.Write($"Введите {i + 1} элемент: "); // to calculate the order in user's way 1, 2, 3...
     array[i] = Console.ReadLine();
 }
 void SelectString(string[] array, string[] newArray)
